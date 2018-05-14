@@ -1,0 +1,13 @@
+cd ~/cs553-pa2a
+
+****this run the linux sort with timing, output data are in linsort2GB.log
+sbatch linsort2GB.slurm.sh  
+
+****this run the linux sort with timing, output data are in linsort20GB.log
+sbatch linsort20GB.slurm.sh  
+
+****this run mainExtenalSort(my sort) with time and valSort, output data are in mysort2GB.log
+sbatch mysort2GB.slurm.sh
+
+****this run mainExtenalSort(my sort) with time and valSort, output data are in mysort20GB.log
+sbatch mysort20GB.slurm.sh  
